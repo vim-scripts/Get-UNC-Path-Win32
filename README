@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=434
+
+The function GetUNCPathOf  tries to find a UNC pathname for a given file by searching the 'net share' list.
+If it fails, it returns the filename it was passed.
+
+The map <localleader>yf  yanks the filename into "*  - the clipboard, for use in emails or browsers.
+
+Useful for placing filenames into intranet emails.
+
+//.ichael G.
